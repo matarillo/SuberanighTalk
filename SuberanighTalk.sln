@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlideShowApp", "SlideShowApp\SlideShowApp.csproj", "{48D0689A-A973-411B-A910-1B73535BF401}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helper", "Helper\Helper.csproj", "{A71EB557-15F0-48DF-9242-8F1D27AC6B4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpHSQL", "SharpHSQL\SharpHSQL.csproj", "{D1A4191B-7F84-4296-8097-A58802813563}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48D0689A-A973-411B-A910-1B73535BF401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48D0689A-A973-411B-A910-1B73535BF401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48D0689A-A973-411B-A910-1B73535BF401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48D0689A-A973-411B-A910-1B73535BF401}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A71EB557-15F0-48DF-9242-8F1D27AC6B4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A71EB557-15F0-48DF-9242-8F1D27AC6B4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A71EB557-15F0-48DF-9242-8F1D27AC6B4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A71EB557-15F0-48DF-9242-8F1D27AC6B4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1A4191B-7F84-4296-8097-A58802813563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1A4191B-7F84-4296-8097-A58802813563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1A4191B-7F84-4296-8097-A58802813563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1A4191B-7F84-4296-8097-A58802813563}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

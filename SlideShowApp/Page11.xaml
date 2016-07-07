@@ -1,0 +1,36 @@
+﻿<UserControl x:Class="SlideShowApp.Page11"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="1024" Height="768"
+    >
+    <Canvas x:Name="LayoutRoot" Background="White">
+        <Image Source="images/body.png" />
+        <TextBlock
+            Canvas.Left="40" Canvas.Top="40"
+            FontSize="98" Foreground="Black">
+            デモ</TextBlock>
+        <TextBox x:Name="inputTextBox"
+                 Canvas.Left="30" Canvas.Top="200"
+                 Width="400" Height="520"
+                 TextWrapping="Wrap" AcceptsReturn="True"
+                 FontFamily="Courier New" FontSize="32"
+                 VerticalScrollBarVisibility="Auto"
+                 Text="create table temp
+                 (id int,
+                 name varchar(30)) "
+                 />
+        <Button x:Name="execButton" Width="120" Height="60"
+                Canvas.Left="460" Canvas.Top="340"
+                FontSize="48"
+                Content="実行"
+                Click="execButton_Click"
+                />
+        <TextBox x:Name="outputTextBox"
+                 Canvas.Left="594" Canvas.Top="200"
+                 Width="400" Height="520"
+                 TextWrapping="Wrap" AcceptsReturn="True"
+                 FontFamily="Courier New" FontSize="32"
+                 VerticalScrollBarVisibility="Auto"
+                 />
+    </Canvas>
+</UserControl>

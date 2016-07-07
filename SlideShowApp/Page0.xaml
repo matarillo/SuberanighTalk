@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="SlideShowApp.Page0"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="1024" Height="768">
+    <Canvas x:Name="LayoutRoot" Background="White">
+        <Image Source="images/title.png" />
+        <TextBlock
+            Canvas.Left="40" Canvas.Top="150" FontSize="96" Foreground="White">
+            Silverlightで<LineBreak />クライアントDB
+        </TextBlock>
+        <TextBlock
+            Canvas.Left="640" Canvas.Top="520" FontSize="56" Foreground="Black" TextAlignment="Right">
+            日本ユニシス<LineBreak/>猪股健太郎
+        </TextBlock>
+    </Canvas>
+</UserControl>

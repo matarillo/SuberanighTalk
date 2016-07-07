@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="SlideShowApp.Page1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="1024" Height="768">
+    <Canvas x:Name="LayoutRoot" Background="White">
+        <Image Source="images/body.png" />
+        <TextBlock
+            Canvas.Left="40" Canvas.Top="40"
+            FontSize="96" Foreground="Black">
+            猪股健太郎です。
+        </TextBlock>
+        <TextBlock
+            Canvas.Left="40" Canvas.Top="200"
+            FontSize="72"
+            Foreground="Black">「平々毎々」<LineBreak />というブログ<LineBreak />やってます。</TextBlock>
+        <Image Source="images/blog.png" Canvas.Left="500" Canvas.Top="220" />
+    </Canvas>
+</UserControl>
